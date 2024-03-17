@@ -293,7 +293,7 @@ h6 {
     #hero {
         /* Adjust background-size and background-position as needed for smaller screens */
         background-size: cover; /* or use 'cover' if you want it to cover the whole area */
-        background-position: center right; /* adjust this as needed to focus on the right part of the image */
+        background-position: 80% center; /* adjust this as needed to focus on the right part of the image */
     }
 }
 
