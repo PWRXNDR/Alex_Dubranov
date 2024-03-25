@@ -288,3 +288,13 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     });
 });
+function setVH() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+// Set the --vh value on initial load
+setVH();
+
+// Update it on resize
+window.addEventListener('resize', setVH);
