@@ -291,7 +291,11 @@ h6 {
 }
 @media (max-width: 768px) {
     #hero {
+        background-size: cover;
         background-position: 80% center; /* adjust this as needed to focus on the right part of the image */
+    }
+    #hero:before {
+        height: 100vh;
     }
 }
 
