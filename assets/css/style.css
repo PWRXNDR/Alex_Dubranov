@@ -769,9 +769,9 @@ section {
 }
 
 .testimonials .testimonial-item {
-  box-sizing: content-box;
-  text-align: center;
-  min-height: 320px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
 }
 
 .testimonials .testimonial-item .testimonial-img {
